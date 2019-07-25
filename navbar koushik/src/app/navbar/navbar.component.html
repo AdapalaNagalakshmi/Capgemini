@@ -1,0 +1,38 @@
+    
+<div>
+  <div class="btn-group" style="float: right">
+    <button class="btn btn-primary btn-btn space btn-lg dropdown-toggle" style="margin:5px " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+      Login
+    </button>
+    <button class="btn btn-primary btn-btn space  btn-lg dropdown-toggle" style="margin:5px " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+      Logout
+    </button>
+    </div>
+  
+    <br/><br/>
+  <!-- Example single danger button -->
+  <div class="btn-group" style="margin:5px; display: inline-block">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Load
+    </button>
+    <div class="dropdown-menu" style="color:white">
+      <a class="dropdown-item" (click)="goLoad()">Single</a>
+      <div class="dropdown-divider"></div>
+      <li class="divider"></li>
+      <a class="dropdown-item" routerLink="/Load/Bulk" (click)="goLoad()">Bulk</a>
+      <li class="divider"></li>
+    </div>
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Delete
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Single</a>
+      <div class="dropdown-divider"></div>
+      <li class="divider"></li>
+      <a class="dropdown-item" href="#">Bulk</a>
+      <li class="divider"></li>
+    </div>
+    <button type="button" class="btn btn-spacing btn-secondary">view  </button>
+    <button type="button" class="btn btn-secondary"> Modify</button>
+  </div>
+    <router-outlet></router-outlet>
