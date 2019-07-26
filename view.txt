@@ -1,0 +1,109 @@
+
+input type="text" placeholder="Company Name Here"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="button" class="btn btn-primary"
+value="Home"/>&nbsp;&nbsp;
+
+<input type="button" class="btn btn-primary"
+value="Logout"/>
+
+<nav class="navbar navbar-default">
+
+<div class="nav navbar-nav" class="dropdown"
+class="navbar-brand">
+
+<button class="nav-item" class="btn btn-primary
+dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+
+aria-haspopup="true" aria-expanded="false">
+
+load
+
+<span class="caret"></span>
+
+</button>
+
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+
+
+
+<a class="dropdown-item" href="#">single</a>
+
+<br>
+
+<a class="dropdown-item" href="#">bulk</a>
+
+
+
+
+</div>
+
+</div>
+
+<div class="nav navbar-nav" class="dropdown"
+class="navbar-brand" >
+
+<button class="nav-item" class="btn btn-primary
+dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false">
+
+view
+
+</button>
+
+</div>
+
+
+
+
+
+
+
+<div class="nav navbar-nav" class="dropdown"
+class="navbar-brand" >
+
+<button class="nav-item" class="btn btn-primary
+dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false">
+
+modify
+
+</button>
+
+
+</div>
+
+<div class="nav navbar-nav" class="dropdown"
+class="navbar-brand">
+
+<button class="nav-item" class="btn btn-primary
+dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+
+aria-haspopup="true" aria-expanded="false">
+
+delete
+
+<span class="caret"></span>
+
+</button>
+
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+
+
+
+<a class="dropdown-item" href="#">single</a>
+
+<br>
+
+<a class="dropdown-item" href="#">bulk</a>
+
+
+
+
+</div>
+
+</div>
+
+</nav>
